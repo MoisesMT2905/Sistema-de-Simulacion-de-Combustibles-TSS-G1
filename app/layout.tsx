@@ -10,9 +10,10 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Sistema de Simulación de Combustibles',
+  description: 'Sistema de simulación de eventos discretos para análisis de decisiones de usuarios en estaciones de gasolina, basado en el libro de Raúl Coss Bú',
   generator: 'v0.app',
+  keywords: ['simulación', 'combustibles', 'eventos discretos', 'análisis de decisiones'],
   icons: {
     icon: [
       {
