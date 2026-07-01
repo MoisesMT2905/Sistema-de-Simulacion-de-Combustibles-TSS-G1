@@ -1,33 +1,37 @@
-# Sistema-de-Simulaci-n-de-Combustibles
+# Sistema de Simulación de Combustibles - TSS - G1
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [v0](https://v0.app).
+Simulador interactivo de eventos discretos para el análisis de una estación de servicio de gasolina especial en Bolivia.
 
-## Built with v0
+## 📋 Descripción del Proyecto
 
-This repository is linked to a [v0](https://v0.app) project. You can continue developing by visiting the link below -- start new chats to make changes, and v0 will push commits directly to this repo. Every merge to `main` will automatically deploy.
+Este proyecto consiste en un **simulador web** de una estación de servicio de gasolina, desarrollado para la materia **Taller de Simulación de Sistemas**. 
 
-[Continue working on v0 →](https://v0.app/chat/projects/prj_jDmQhFWY8d6hBxhq7V3PQzGeuotM)
+El sistema modela el comportamiento de conductores de vehículos particulares y de transporte pesado frente a la red de expendio de gasolina subvencionada, permitiendo analizar el impacto de cambios en precios, tasas de llegada y otros parámetros mediante **simulación de eventos discretos**.
 
-## Getting Started
+## ✨ Características Principales
 
-First, run the development server:
+- Interfaz web moderna e interactiva
+- Configuración de parámetros de simulación en tiempo real
+- Ejecución de simulación de eventos discretos
+- Visualización de resultados y métricas clave (tiempos de espera, utilización de surtidores, longitud de colas, etc.)
+- Tabla detallada de eventos con análisis
+- Exportación de reportes a PDF
+- Gráficos de resultados
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 🚀 Demo en Línea
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Aplicación desplegada:** (https://simulation-system-implementation.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠 Tecnologías Utilizadas
 
-## Learn More
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **Tailwind CSS** + **Shadcn/ui**
+- **jsPDF** + **html2canvas** (para exportación PDF)
 
-To learn more, take a look at the following resources:
+## 📁 Estructura del Proyecto
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-- [v0 Documentation](https://v0.app/docs) - learn about v0 and how to use it.
+- `/app` — Páginas y configuración principal
+- `/components` — Componentes reutilizables (Dashboard, SimulationResults, EventsTable, etc.)
+- `/lib` — Lógica de simulación, generadores y utilidades
+- `/data` — Informe del proyecto y archivos de datos
